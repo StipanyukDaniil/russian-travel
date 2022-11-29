@@ -3,5 +3,5 @@
 Данный проект позволяет закрепить ранее приобретенные навыки.
 В этом проекте мы познакомились с адаптивными страницами, а также создали свою про путешествия по России.
 
-## Ссылка на GithubPages: https://stipanyukdaniil.github.io/russian-travel/pages/index.html
+## Ссылка на GithubPages: https://stipanyukdaniil.github.io/russian-travel/index.html
 
