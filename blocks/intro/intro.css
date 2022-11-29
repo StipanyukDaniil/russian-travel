@@ -1,0 +1,13 @@
+.intro {
+    max-width: 984px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+  }
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .intro {
+        margin-left: 48px;
+        margin-right: 48px;
+        
+    }
+} 

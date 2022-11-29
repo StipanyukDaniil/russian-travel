@@ -1,0 +1,25 @@
+.intro__text-container{
+    margin: 33px 0 92px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .intro__text-container {
+      margin: 33px 0 92px 0;
+      max-width: 690px;
+    }
+  }
+  
+  @media (min-width: 767px) and (max-width: 1023px) {
+    .intro__text-container {
+      margin: 34px 0 64px 24px;
+      max-width: 720px; 
+    }
+  }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .intro__text-container {
+      margin: 34px 0 64px 16px;
+      max-width: 288px;
+    }
+  }

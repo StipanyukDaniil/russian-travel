@@ -1,0 +1,17 @@
+.places {
+    font-family: 'Inter', 'Helvatica', sans-serif;
+    grid-row-gap: 80px;
+    display: grid;
+  }
+  
+  @media screen and (max-width: 968px) {
+    .places {
+      grid-row-gap: 73px;
+    }
+  }
+  
+  @media screen and (max-width: 568px) {
+    .places {
+      grid-row-gap: 50px;
+    }
+  }

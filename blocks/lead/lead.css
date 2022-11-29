@@ -1,0 +1,13 @@
+.lead {
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: 'Inter', 'Helvatica', sans-serif;
+  }
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .lead {
+      margin-left: 48px;
+      margin-right: 48px;
+    }
+}

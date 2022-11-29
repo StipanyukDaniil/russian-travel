@@ -1,0 +1,55 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/russian-travel/images/baik.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 740px; */
+    margin: 92px auto 92px;
+    color: #fff;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    transition: .3s;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+@media (min-width: 319px)  and (max-width: 768px) {
+    .cover__link  {
+        min-height: 200px;
+        margin: 66px auto 64px;
+    }
+}
+
+.cover__link::before {
+    content: '';
+    background: #2a2c2f;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: .3s;
+}
+
+.cover__link:hover::before {
+    opacity: .8;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .cover__link {
+        min-height: 480px;
+        margin: 90px auto 88px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__link {
+        min-height: 640px;
+    }
+}
