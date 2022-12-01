@@ -12,10 +12,12 @@
       max-width: 720px;
     }
   }
+
   
-  @media screen and (max-width: 568px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     .intro__text {
       margin-left: 16px;
-      max-width: 288px; 
+      margin-right: 16px;
+      max-width: 720px; 
     }
   }

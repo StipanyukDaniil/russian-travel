@@ -26,7 +26,16 @@
     }
 }
 
-@media screen and (max-width: 740px) {
+@media (min-width: 321px) and (max-width: 740px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        gap: 32px;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 320px) {
     .place {
         display: flex;
         flex-direction: column;
